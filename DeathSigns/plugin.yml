@@ -1,0 +1,6 @@
+name: DeathSigns
+author: Pyr0x3n 
+version: 1.5.1
+main: com.pyr0x3n.DeathSigns.Main
+softdepend: [LibsHungergames]
+description: Rise a death sign with player name at death location

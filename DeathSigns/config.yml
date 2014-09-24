@@ -1,0 +1,28 @@
+# Place here the text you want be displayed on sign for every lines
+# You can use color codes. &b is aqua, &f is white and so on.... http://minecraft.gamepedia.com/Formatting_codes#Color_codes
+# You can use variable %Killed% for the killed player, %Killer% for the killer player
+
+# Char  XXXXXXXXXXXXXXX  <-Remember use a maximum of 15 characters per line, included color!
+line1: '&b%Killed%'
+line2: '&fwas killed by'
+line3: '&4%Killer%'
+line4: 'while rampaging'
+
+# If the player is killed by a mob or other non player event what do you call it?
+# No color here!
+nonPlayerKiller: 'the hand of God'
+
+# If true the sign will be set att the highest point above ground, that is if you died on a cave the sign will be on surface
+# If false the sign will spawn on ground of site of death
+getHighestBlockY: true
+
+
+
+# Are Death Signs protected against griefing?
+signProtected: true
+# What message do you send to people griefing death signs 
+griefingMessage: '&aPlease, Have some respect for the dead tributes!'
+# Do you want to punish griefer?
+punishGriefer: true
+# How my half hearts drop in punishment
+punishment: 2
